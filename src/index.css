@@ -72,3 +72,21 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+@media (max-width: 600px) {
+  #root {
+    width: 100%;
+  }
+  .app {
+    width: 100%;
+    padding: 4em 20px !important;
+    box-sizing: border-box;
+  }
+
+  h1 {
+    font-size: 2.4em;
+  }
+  h2 {
+    font-size: 1.2em;
+  }
+}

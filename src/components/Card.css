@@ -56,3 +56,12 @@
   max-height: 80%;
   object-fit: contain;
 }
+
+@media (max-width: 600px) {
+  .card {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    padding: 0;
+  }
+}
